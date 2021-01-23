@@ -1,0 +1,639 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask-drivers": {
+        "revision": "dc8956033d0d04cf0f6a797b3f2e90f2f100dc13"
+      },
+      "homebrew/cask-fonts": {
+        "revision": "8fa24a1d882b79ec80090cf889b90742d66998ce"
+      },
+      "mas-cli/tap": {
+        "revision": "cda4a64d7bcf57989271d90e2bb456e2f47ef101"
+      },
+      "thoughtbot/formulae": {
+        "revision": "a6bb452f4c03204fc49556c81e64172700a6d6d1"
+      }
+    },
+    "cask": {
+      "1password": {
+        "version": "7.7",
+        "options": {
+          "full_name": "1password"
+        }
+      },
+      "appcleaner": {
+        "version": "3.5.1,3955",
+        "options": {
+          "full_name": "appcleaner"
+        }
+      },
+      "bitwarden": {
+        "version": "1.23.1",
+        "options": {
+          "full_name": "bitwarden"
+        }
+      },
+      "brave-browser": {
+        "version": "88.1.19.86,119.86",
+        "options": {
+          "full_name": "brave-browser"
+        }
+      },
+      "clickup": {
+        "version": "2.0.21",
+        "options": {
+          "full_name": "clickup"
+        }
+      },
+      "coconutbattery": {
+        "version": "3.9.4,53c28f06",
+        "options": {
+          "full_name": "coconutbattery"
+        }
+      },
+      "cyberduck": {
+        "version": "7.8.1,34119",
+        "options": {
+          "full_name": "cyberduck"
+        }
+      },
+      "docker": {
+        "version": "3.1.0,51484",
+        "options": {
+          "full_name": "docker"
+        }
+      },
+      "font-hack": {
+        "version": "3.003",
+        "options": {
+          "full_name": "font-hack"
+        }
+      },
+      "gimp": {
+        "version": "2.10.22",
+        "options": {
+          "full_name": "gimp"
+        }
+      },
+      "google-backup-and-sync": {
+        "version": "3.53.3471.0626",
+        "options": {
+          "full_name": "google-backup-and-sync"
+        }
+      },
+      "iterm2": {
+        "version": "3.4.3",
+        "options": {
+          "full_name": "iterm2"
+        }
+      },
+      "kap": {
+        "version": "3.3.2",
+        "options": {
+          "full_name": "kap"
+        }
+      },
+      "notion": {
+        "version": "2.0.11",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "postico": {
+        "version": "1.5.17",
+        "options": {
+          "full_name": "postico"
+        }
+      },
+      "slack": {
+        "version": "4.12.2",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "spectacle": {
+        "version": "1.2,672",
+        "options": {
+          "full_name": "spectacle"
+        }
+      },
+      "spotify": {
+        "version": "1.1.48.625.g1c87c7f7,1.1.48.625.g1c87c7f7-60",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "the-unarchiver": {
+        "version": "4.2.4,131:1605625663",
+        "options": {
+          "full_name": "the-unarchiver"
+        }
+      },
+      "transmission": {
+        "version": "3.00",
+        "options": {
+          "full_name": "transmission"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.52.1",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "whatsapp": {
+        "version": "2.2100.7",
+        "options": {
+          "full_name": "whatsapp"
+        }
+      },
+      "zeplin": {
+        "version": "3.12,1061",
+        "options": {
+          "full_name": "zeplin"
+        }
+      },
+      "zoomus": {
+        "version": "5.4.58903.1122,alias",
+        "options": {
+          "full_name": "zoomus"
+        }
+      },
+      "android-studio": {
+        "version": "4.1.2.0,201.7042882",
+        "options": {
+          "full_name": "android-studio"
+        }
+      },
+      "calibre": {
+        "version": "5.10.1",
+        "options": {
+          "full_name": "calibre"
+        }
+      },
+      "discord": {
+        "version": "0.0.261",
+        "options": {
+          "full_name": "discord"
+        }
+      },
+      "insomnia": {
+        "version": "2020.5.2",
+        "options": {
+          "full_name": "insomnia"
+        }
+      },
+      "react-native-debugger": {
+        "version": "0.11.7",
+        "options": {
+          "full_name": "react-native-debugger"
+        }
+      },
+      "reactotron": {
+        "version": "2.17.1",
+        "options": {
+          "full_name": "reactotron"
+        }
+      },
+      "sequel-pro": {
+        "version": "1.1.2",
+        "options": {
+          "full_name": "sequel-pro"
+        }
+      },
+      "vlc": {
+        "version": "3.0.12",
+        "options": {
+          "full_name": "vlc"
+        }
+      },
+      "wifi-explorer": {
+        "version": "3.0.2,40",
+        "options": {
+          "full_name": "wifi-explorer"
+        }
+      },
+      "maccy": {
+        "version": "0.18.2",
+        "options": {
+          "full_name": "maccy"
+        }
+      },
+      "tyke": {
+        "version": "1.0",
+        "options": {
+          "full_name": "tyke"
+        }
+      }
+    },
+    "brew": {
+      "awscli": {
+        "version": "2.1.21",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.21.big_sur.bottle.tar.gz",
+              "sha256": "addea8a283810e594f7b262757b88c77d8b55de41dfeb71c14acd09956d111fd"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.21.arm64_big_sur.bottle.tar.gz",
+              "sha256": "8e458198b2cd0f925e02268b008f13543eb8c6e9dc12b35d012466916acbb674"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.21.catalina.bottle.tar.gz",
+              "sha256": "225e07f11319d8734e23a01584ba5e1420304f05a94994e03f834ccf450787f1"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.21.mojave.bottle.tar.gz",
+              "sha256": "a65f419a1423eb596915b9e13812789fd112e4e32b3f63a531402e1fb1b36948"
+            }
+          }
+        }
+      },
+      "diff-so-fancy": {
+        "version": "1.3.0",
+        "bottle": false
+      },
+      "docker": {
+        "version": "20.10.2",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/docker-20.10.2.big_sur.bottle.tar.gz",
+              "sha256": "1b151040538cbd9a488836af7adcd5880914666a918d4323a318bfb394b5195c"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/docker-20.10.2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "174962c9dbd9d49fd970a5e4ac7648e1b61ac1592448a194744f10c6752cf653"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/docker-20.10.2.catalina.bottle.tar.gz",
+              "sha256": "15fa582eb8576746711816507cbba451cc1fb6291089c59cbeee16a6d849bb0f"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/docker-20.10.2.mojave.bottle.tar.gz",
+              "sha256": "c2f5ff81f356e038d61fa57ce058da36078d3c65e431bf771bb621c181eb591b"
+            }
+          }
+        }
+      },
+      "duti": {
+        "version": "1.5.4_1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/duti-1.5.4_1.big_sur.bottle.tar.gz",
+              "sha256": "d2e0ccdd5be1c9f272787bc96ed419df33ef4199b47bb8a0762af596d3fc442b"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/duti-1.5.4_1.arm64_big_sur.bottle.tar.gz",
+              "sha256": "f7ba0f6fd9de2bd9f853883027edcb480b7cf12c7a2076aa87226efc239d5578"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/duti-1.5.4_1.catalina.bottle.tar.gz",
+              "sha256": "5fe04375afd229149721ce8a0cd66fe7a372fa5a5dce11084616d2a979aa47fe"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/duti-1.5.4_1.mojave.bottle.tar.gz",
+              "sha256": "ffb23db168b014703e505ef2d76d7bc431efd5d4d1244833d9b2ddf5723133a6"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/duti-1.5.4_1.high_sierra.bottle.tar.gz",
+              "sha256": "e495d02894655b516f79fa10671f5d768cae04c5b73c1aa077f8b0c573584cbf"
+            }
+          }
+        }
+      },
+      "git": {
+        "version": "2.30.0",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.big_sur.bottle.tar.gz",
+              "sha256": "bd4dd57a4740df3c596377954d45fcf2b08db83f7d8853f5361db1d158a6bdb8"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "7e0f30621e1a5be89bf604eacdca8de9a79bd16c273a1d6f4dd39c6f806d4b98"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.catalina.bottle.tar.gz",
+              "sha256": "091c6e512e9dd5c3373f75a9b495dbe42f9852d93dab4c72d3fb2c8e01738953"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.30.0.mojave.bottle.tar.gz",
+              "sha256": "bd96accac4e05c8799b062772ab943a10e9ff25784f2828c5c25b2debd3d2f13"
+            }
+          }
+        }
+      },
+      "grc": {
+        "version": "1.11.3_2",
+        "bottle": false
+      },
+      "httpie": {
+        "version": "2.3.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/httpie-2.3.0.big_sur.bottle.1.tar.gz",
+              "sha256": "bdffeff349595ed3c528ed791d568e308b0877246b49e05e867143ba3415a70f"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/httpie-2.3.0.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "a01ce8767f6ea88eb8e7894347ba64eb29294053a8ee91eed44dfaf0ab5e7ea2"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/httpie-2.3.0.catalina.bottle.1.tar.gz",
+              "sha256": "ba0627d70f0ee49c64677f5554881ebd56371f47d45196b6564680089ce69152"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/httpie-2.3.0.mojave.bottle.1.tar.gz",
+              "sha256": "0b87901e88bdcf53c55c5138677087b4621c5aaf1fca67b53b730d5a2fd5a40a"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/httpie-2.3.0.high_sierra.bottle.1.tar.gz",
+              "sha256": "87e7348b6fb40fd8e4f7597937952469601962189e62d321b8cb4fa421e035ef"
+            }
+          }
+        }
+      },
+      "jq": {
+        "version": "1.6",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.big_sur.bottle.1.tar.gz",
+              "sha256": "bf0f8577632af7b878b6425476f5b1ab9c3bf66d65affb0c455048a173a0b6bf"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "674b3ae41c399f1e8e44c271b0e6909babff9fcd2e04a2127d25e2407ea4dd33"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.catalina.bottle.1.tar.gz",
+              "sha256": "820a3c85fcbb63088b160c7edf125d7e55fc2c5c1d51569304499c9cc4b89ce8"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.mojave.bottle.1.tar.gz",
+              "sha256": "71f0e76c5b22e5088426c971d5e795fe67abee7af6c2c4ae0cf4c0eb98ed21ff"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.high_sierra.bottle.1.tar.gz",
+              "sha256": "dffcffa4ea13e8f0f2b45c5121e529077e135ae9a47254c32182231662ee9b72"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/jq-1.6.sierra.bottle.1.tar.gz",
+              "sha256": "bb4d19dc026c2d72c53eed78eaa0ab982e9fcad2cd2acc6d13e7a12ff658e877"
+            }
+          }
+        }
+      },
+      "mas": {
+        "version": "1.7.1",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.big_sur.bottle.tar.gz",
+              "sha256": "432091a534d0a1f753fcf953fb1c20c10ef5762b7f8922cb378c3dcd36898d30"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.catalina.bottle.tar.gz",
+              "sha256": "e6de2f98ebd21885a9827664fe1b7eea5516a7fd75d5b7383e3a9b088591a27f"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/mas-1.7.1.mojave.bottle.tar.gz",
+              "sha256": "8b6dc4e261ebdc8e2f93afe87da3db4d482eb3d8a0358ab19a0485d434550e77"
+            }
+          }
+        }
+      },
+      "n": {
+        "version": "7.0.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/n-7.0.0.big_sur.bottle.tar.gz",
+              "sha256": "6e5f5c5bda7d49a0cf2c5ec8ff93aa32a37ebae54be832f3ff0a2e79357733c7"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/n-7.0.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "8f2489b60bd94ca9c15f3c5334eee89b73150c02cb42ba0cd6ee9eb100314295"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/n-7.0.0.catalina.bottle.tar.gz",
+              "sha256": "02c2c46f1fbe589f28b5ff91ee5605fa951026894b118f977aa01bbd0f34b67d"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/n-7.0.0.mojave.bottle.tar.gz",
+              "sha256": "7b973a504a2bdb3e39e63162d3ab40ee47dac5dd2a49eeb75a7cc2af95c0d38b"
+            }
+          }
+        }
+      },
+      "python": null,
+      "telnet": {
+        "version": "63",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/telnet-63.big_sur.bottle.tar.gz",
+              "sha256": "e6fb7de53e703755a72e227752f81023c2935567d935af638959e986da910b3e"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/telnet-63.arm64_big_sur.bottle.tar.gz",
+              "sha256": "563fcbef08590e48a07079f00877e14f22f54849db11ee02ba7c935499a7ccd1"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/telnet-63.catalina.bottle.tar.gz",
+              "sha256": "7435a9fd2515158762a85197a4ad7141e430383e185e002da169dbbb638c952f"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/telnet-63.mojave.bottle.tar.gz",
+              "sha256": "d5009f496dc6cf0c13b936996f98b91b0f12733ea9462843b56a39fc53b20fe0"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/telnet-63.high_sierra.bottle.tar.gz",
+              "sha256": "af38f3c6dd4ff5eda2248671958e66595b39e74cdeecca52af4efb495bc659a7"
+            }
+          }
+        }
+      },
+      "thoughtbot/formulae/rcm": null,
+      "tldr": {
+        "version": "1.3.0_2",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/tldr-1.3.0_2.big_sur.bottle.1.tar.gz",
+              "sha256": "3369bd7f8eeb65d058ae02878d1c2f0d20f3754934aba468c4b2646040e6e7dd"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/tldr-1.3.0_2.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "1e59825a8fcafd2287531e1c54b7a60e528ac454a4c7a269c3910a13fd7b7249"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/tldr-1.3.0_2.catalina.bottle.1.tar.gz",
+              "sha256": "41a6db2e28eeae00ff6d1888948d8b7d0f01cd67b3f271341b856cded07ba6ca"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/tldr-1.3.0_2.mojave.bottle.1.tar.gz",
+              "sha256": "7f10022d0c6648741457c2562bc5e521d8dd88dfc4c4d68d1c886739ffd7eb45"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/tldr-1.3.0_2.high_sierra.bottle.1.tar.gz",
+              "sha256": "c932bd8516b6690c45dcbf90ced6ad94d4a0aa5a366de532fe90c4ab82b9a2ad"
+            }
+          }
+        }
+      },
+      "trash": {
+        "version": "0.9.2",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/trash-0.9.2.big_sur.bottle.1.tar.gz",
+              "sha256": "403ba52ce97d38535e1d127ca227afd4ea2d0e0c8b414118dbc5376c9ed8f094"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/trash-0.9.2.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "11c0c85ec692ea6d4a125070f0a6ca576aff991608a6c9632b984cbf983e2481"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/trash-0.9.2.catalina.bottle.1.tar.gz",
+              "sha256": "b452d67cdeeb52db0aaadd258bc3e214a5ea5ed37da698b45017b01457115ea6"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/trash-0.9.2.mojave.bottle.1.tar.gz",
+              "sha256": "d8ad5460b24a51a4a12b31ebf1a2887e9e86e029d061f6994c3c1caea7bf0551"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/trash-0.9.2.high_sierra.bottle.1.tar.gz",
+              "sha256": "0ef5ea924ba8d01398686657a839ad270796f3f10eee86d6522980d32038df9a"
+            }
+          }
+        }
+      },
+      "todo-txt": {
+        "version": "2.12.0",
+        "bottle": false
+      },
+      "yarn": {
+        "version": "1.22.10",
+        "bottle": false
+      },
+      "git-extras": {
+        "version": "6.1.0",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/git-extras-6.1.0.big_sur.bottle.tar.gz",
+              "sha256": "1ed4aa34fdbb50977413ff1860227d7c66cc339f614ee65fe4b9bbdc82bc224e"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/git-extras-6.1.0.arm64_big_sur.bottle.tar.gz",
+              "sha256": "a26aa6b1ef178b8c5c8a7fb61ec04e5e0b43fdfe9c253703273c2c3536935826"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/git-extras-6.1.0.catalina.bottle.tar.gz",
+              "sha256": "abb85334f41bfa73f650bc138caecf8a35cc0af8951628c97b09d68c30fbbe60"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/git-extras-6.1.0.mojave.bottle.tar.gz",
+              "sha256": "afe41a9918fd0951a2e2b4badfbb6bca57ca2161d6ef82f452604e1f73154825"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/git-extras-6.1.0.high_sierra.bottle.tar.gz",
+              "sha256": "ffc36aced07c7ca6a5e8ccb8b4dbfcdd50742efd780d9a1b668189813a3486cf"
+            }
+          }
+        }
+      },
+      "fasd": {
+        "version": "1.0.1",
+        "bottle": false
+      },
+      "procs": {
+        "version": "0.10.10",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/procs-0.10.10.big_sur.bottle.tar.gz",
+              "sha256": "212bb791a261e19856eda7ff7cdae3ee3d96a5553f5f1a6fd94a882b8663121f"
+            },
+            "arm64_big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/procs-0.10.10.arm64_big_sur.bottle.tar.gz",
+              "sha256": "20c0b4166c8968e34e777e67f934890ad4449d4619db6cae53f6b14d3d289c3b"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/procs-0.10.10.catalina.bottle.tar.gz",
+              "sha256": "7bd872fd51bc821cb102ed245545918b6c95356395a66665807dc089c245409e"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/procs-0.10.10.mojave.bottle.tar.gz",
+              "sha256": "435573168fd92844915ffc08bb1d29b424549fb805ee9205094d27892ec0c33a"
+            }
+          }
+        }
+      }
+    },
+    "mas": {
+      "WiFi Explorer Lite": null,
+      "Be Focused Pro - Focus Timer": null,
+      "Xcode": {
+        "id": "497799835",
+        "version": "12.3"
+      },
+      "Bear": {
+        "id": "1091189122",
+        "version": "1.8.2"
+      },
+      "Microsoft To Do": {
+        "id": "1274495053",
+        "version": "2.35"
+      },
+      "Reeder": {
+        "id": "1449412482",
+        "version": "4.2.8"
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.7.5",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "c0ff72fc575d5c2230e8c0dfc8105001b59aee6c",
+        "CLT": "12.3.0.0.1.1607026830",
+        "Xcode": "12.3",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}
