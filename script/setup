@@ -16,7 +16,8 @@ install_zplugin() {
   echo "Installing zplugin..."
 
   # Install zplugin.
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+  mkdir ~/.zplugin
+  git clone https://github.com/zdharma/zplugin.git ~/.zplugin/bin
 }
 
 # Add vim Vundle.
