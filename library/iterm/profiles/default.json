@@ -84,7 +84,7 @@
     "Green Component": 0.77254903316497803
   },
   "Bound Hosts": [],
-  "Working Directory": "\/Users\/ruimarinho",
+  "Working Directory": "\/Users\/abelsoares",
   "Blinking Cursor": false,
   "Use Tab Color": false,
   "Sync Title": false,
@@ -93,7 +93,7 @@
   "Command": "",
   "Description": "Foobar",
   "Smart Cursor Color": false,
-  "Dynamic Profile Filename": "\/Users\/ruimarinho\/Library\/Application Support\/iTerm2\/DynamicProfiles\/default.json",
+  "Dynamic Profile Filename": "\/Users\/abelsoares\/Library\/Application Support\/iTerm2\/DynamicProfiles\/default.json",
   "Screen": -1,
   "Selection Color": {
     "Red Component": 0.19215686274509805,
@@ -332,7 +332,7 @@
     "Alpha Component": 1,
     "Green Component": 0.88235294818878174
   },
-  "Name": "ruimarinho",
+  "Name": "abelsoares",
   "Cursor Text Color": {
     "Red Component": 0.71764707565307617,
     "Color Space": "sRGB",
