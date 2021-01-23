@@ -70,20 +70,6 @@ configure_duti() {
   done
 }
 
-# Sublime Text 3.
-configure_sublime() {
-  if [ -e ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package ]; then
-    echo "Skipping Sublime defaults..."
-    return 0;
-  fi
-
-  echo "Applying Sublime defaults..."
-  mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
-  curl https://packagecontrol.io/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
-  rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-  ln -sfv $(pwd)/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-}
-
 # Configure iTerm defaults.
 configure_iterm() {
   if [ -e ~/Library/Application\ Support/iTerm2/DynamicProfiles ]; then
@@ -109,6 +95,5 @@ symlink_dotfiles
 install_nodejs
 configure_duti
 configure_vim
-configure_sublime
 configure_iterm
 configure_macos
