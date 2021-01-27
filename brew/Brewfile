@@ -6,6 +6,7 @@ tap 'thoughtbot/formulae'
 
 # Casks
 cask '1password'
+cask 'adoptopenjdk/openjdk/adoptopenjdk8'
 cask 'android-studio'
 cask 'appcleaner'
 cask 'bitwarden'
@@ -42,6 +43,7 @@ cask 'zoomus'
 
 # Packages
 brew 'awscli'
+brew 'cocoapods'
 brew 'diff-so-fancy'
 brew 'docker'
 brew 'duti'
@@ -59,6 +61,7 @@ brew 'telnet'
 brew 'thoughtbot/formulae/rcm'
 brew 'tldr'
 brew 'trash'
+brew 'watchman'
 brew 'yarn'
 
 # Mac App Store
