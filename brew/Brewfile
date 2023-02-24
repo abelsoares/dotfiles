@@ -1,0 +1,39 @@
+# Taps
+tap 'homebrew/cask-drivers'
+tap 'homebrew/cask-fonts'
+tap 'mas-cli/tap'
+tap 'thoughtbot/formulae'
+
+# Casks
+cask '1password'
+cask 'appcleaner'
+cask 'bitwarden'
+cask 'cyberduck'
+cask 'docker'
+cask 'font-hack'
+cask 'iterm2'
+cask 'postico'
+cask 'slack'
+cask 'spectacle'
+cask 'spotify'
+cask 'the-unarchiver'
+cask 'visual-studio-code'
+
+# Packages
+brew 'fasd'
+brew 'diff-so-fancy'
+brew 'duti'
+brew 'git'
+brew 'git-extras'
+brew 'grc'
+brew 'jq'
+brew 'mas'
+brew 'n'
+brew 'procs'
+brew 'python'
+brew 'thoughtbot/formulae/rcm'
+brew 'yarn'
+
+# # Mac App Store
+mas "WiFi Explorer Lite", id: 1408727408
+  

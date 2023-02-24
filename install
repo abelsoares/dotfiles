@@ -1,0 +1,83 @@
+#!/bin/zsh
+
+# Install brew dependencies.
+install_brew() {
+  echo "Running brew..."
+  brew bundle --file=brew/Brewfile
+}
+
+# Install zinit.
+install_zinit() {
+  ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+
+  if [[ ! -d ${ZINIT_HOME} ]]; then
+      echo '[zshrc] installing zinit ...'
+      mkdir -p "$(dirname $ZINIT_HOME)"
+      git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+  fi
+}
+
+# Setup rc files.
+symlink_dotfiles() {
+  echo "Symlinking dotfiles..."
+  rcup -fvd packages | nl -bn
+}
+
+# Install latest node.js.
+install_nodejs() {
+  if [ ! -x "$(which n 2> /dev/null)" ]; then
+    return 1;
+  fi
+
+  echo "Installing latest node.js..."
+  sudo mkdir -p /usr/local/n
+  sudo chown -R $(whoami) /usr/local/n
+  sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
+  n latest
+}
+
+# Configure duti default file handlers.
+configure_duti() {
+  echo "Applying duti defaults..."
+
+  # VS Code
+  local vsCodeExtensions=(json md py sh yaml yml)
+  for extension in "${vsCodeExtensions[@]}"
+  do
+    duti -s com.microsoft.VSCode .${extension} all
+  done
+
+  # The Unarchiver
+  local unarchiverExtensions=(zip rar)
+  for extension in "${unarchiverExtensions[@]}"
+  do
+    duti -s com.macpaw.site.theunarchiver .${extension} all
+  done
+}
+
+# Configure iTerm defaults.
+configure_iterm() {
+  if [ -e ~/Library/Application\ Support/iTerm2/DynamicProfiles ]; then
+    echo "Skipping iTerm defaults..."
+    return 0;
+  fi
+
+  echo "Applying iTerm defaults..."
+  mkdir -p ~/Library/Application\ Support/iTerm2/DynamicProfiles
+  ln -sfv $(pwd)/library/iterm/profiles/default.json ~/Library/Application\ Support/iTerm2/DynamicProfiles
+  source library/iterm/defaults
+}
+
+# Configure macOS defaults.
+configure_macos() {
+  echo "Applying macOS defaults..."
+  source macos/defaults
+}
+
+install_brew
+install_zinit
+symlink_dotfiles
+install_nodejs
+configure_duti
+configure_iterm
+configure_macos
