@@ -8,15 +8,23 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2 - Clone the repo:
+2 - Install Xcode command line tools:
+
+```sh
+xcode-select --install
+```
+
+**Note:** If you edit the `brew/Brewfile` to install Xcode before adding the `thoughtbot/formulae/rcm` brew package, you can ignore this step.
+
+3 - Clone the repo:
 
 ```sh
 git clone https://github.com/abelsoares/dotfiles.git
 ```
 
-3 - Run `./install`.
+4 - Run `./install`.
 
-4 - After the install restart your system as some macOS setup may only happen after restart.  
+5 - After the install restart your system as some macOS setup may only happen after restart.  
 Some additional setup will happen after you restart your shell.
 
 
