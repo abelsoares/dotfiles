@@ -22,6 +22,7 @@ cask 'visual-studio-code'
 # Packages
 brew 'fasd'
 brew 'diff-so-fancy'
+brew 'doctl'
 brew 'duti'
 brew 'git'
 brew 'git-extras'
@@ -30,10 +31,10 @@ brew 'jq'
 brew 'mas'
 brew 'n'
 brew 'procs'
+brew 'pulumi'
 brew 'python'
 brew 'thoughtbot/formulae/rcm'
 brew 'yarn'
 
 # # Mac App Store
 mas "WiFi Explorer Lite", id: 1408727408
-  
