@@ -1,6 +1,4 @@
 # Taps
-tap 'homebrew/cask-drivers'
-tap 'homebrew/cask-fonts'
 tap 'mas-cli/tap'
 tap 'thoughtbot/formulae'
 
