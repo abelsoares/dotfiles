@@ -16,15 +16,19 @@ xcode-select --install
 
 **Note:** If you edit the `brew/Brewfile` to install Xcode before adding the `thoughtbot/formulae/rcm` brew package, you can ignore this step.
 
-3 - Clone the repo:
+3 - Install dependencies
+
+Clone the [fasd](https://github.com/clvv/fasd) repo and `sudo PREFIX=$HOME make install`
+
+4 - Clone the repo:
 
 ```sh
 git clone https://github.com/abelsoares/dotfiles.git
 ```
 
-4 - Run `./install`.
+5 - Run `./install`.
 
-5 - After the install restart your system as some macOS setup may only happen after restart.  
+6 - After the install restart your system as some macOS setup may only happen after restart.  
 Some additional setup will happen after you restart your shell.
 
 
