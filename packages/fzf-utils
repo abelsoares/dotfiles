@@ -1,0 +1,6 @@
+# Find npm scripts and run it.
+fns() {
+  local script
+  script=$(cat package.json | jq -r '.scripts | keys[] ' | sort | fzf) && npm run $(echo "$script")
+}
+alias fns="fns"

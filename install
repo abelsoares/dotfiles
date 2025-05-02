@@ -6,14 +6,14 @@ install_brew() {
   brew bundle --file=brew/Brewfile
 }
 
-# Install zinit.
-install_zinit() {
-  ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+# Install zim.
+install_zim() {
+  ZIM_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/.zim"
 
-  if [[ ! -d ${ZINIT_HOME} ]]; then
-      echo '[zshrc] installing zinit ...'
-      mkdir -p "$(dirname $ZINIT_HOME)"
-      git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+  # Download zimfw plugin manager if missing.
+  if [[ ! -e ${ZIM_HOME}/zimfw.zsh ]]; then
+    curl -fsSL --create-dirs -o ${ZIM_HOME}/zimfw.zsh \
+        https://github.com/zimfw/zimfw/releases/latest/download/zimfw.zsh
   fi
 }
 
@@ -25,15 +25,15 @@ symlink_dotfiles() {
 
 # Install latest node.js.
 install_nodejs() {
-  if [ ! -x "$(which n 2> /dev/null)" ]; then
+  if [ ! -x "$(which asdf 2> /dev/null)" ]; then
     return 1;
   fi
 
   echo "Installing latest node.js..."
-  sudo mkdir -p /usr/local/n
-  sudo chown -R $(whoami) /usr/local/n
-  sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
-  n latest
+  
+  asdf plugin add nodejs
+  asdf install nodejs lts
+  asdf set -u nodejs lts
 }
 
 # Configure duti default file handlers.
@@ -75,9 +75,9 @@ configure_macos() {
 }
 
 install_brew
-install_zinit
+install_zim
 symlink_dotfiles
 install_nodejs
-configure_duti
-configure_iterm
-configure_macos
+# configure_duti
+# configure_iterm
+# configure_macos
