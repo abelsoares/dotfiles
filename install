@@ -78,6 +78,6 @@ install_brew
 install_zim
 symlink_dotfiles
 install_nodejs
-# configure_duti
-# configure_iterm
-# configure_macos
+configure_duti
+configure_iterm
+configure_macos
